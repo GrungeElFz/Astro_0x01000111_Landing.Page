@@ -14,7 +14,7 @@ const { seo } = Astro.props;
     <BaseHead {...seo} />
     <slot name="head-bottom" />
   </head>
-  <body>
+  <body class="gradient-background">
     <slot name="header" />
     <main>
       <slot />
