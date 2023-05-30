@@ -34,7 +34,7 @@ You can learn more about this template/theme's creation in [this YouTube video](
 - ✅ A generic but flexible Button component
 - ✅ Automatic Sitemap
 
-## Get Started 
+## Get Started
 
 Customize the global site settings such as the title and description in the `src/data/settings.ts` file
 
@@ -50,13 +50,59 @@ OR
 
 ## Local Development
 
-```sh
+```bash
 npm i && npm start
 ```
 
 ## Deploy
 
 Astro has [an in-depth guide](https://docs.astro.build/en/guides/deploy/) on how to deploy an Astro project to each service.
+
+## Project Structure
+
+```ts
+├── assets/
+│   ├── discord-badge.svg
+│   ├── gh-banner.png
+│   ├── sponsor-badge.svg
+│   └── twitter-badge.svg
+├── public/
+│   ├── assets/
+│   │   └── images/
+│   │       └── bg.svg
+│   └── favicon.png
+├── src/
+│   ├── components/
+│   │   ├── BaseHead.astro
+│   │   ├── Button.astro
+│   │   ├── Container.astro
+│   │   ├── FadeIn.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── Logo.astro
+│   │   └── SignupForm.astro
+│   ├── data/
+│   │   ├── settings.ts
+│   │   └── socials.ts
+│   ├── icons/
+│   │   └── placeholder-logo.svg
+│   ├── layouts/
+│   │   ├── Base.astro
+│   │   └── Page.astro
+│   ├── pages/
+│   │   └── index.astro
+│   ├── styles/
+│   │   ├── main.css
+│   │   └── reset.css
+│   └── env.d.ts
+├── astro.config.mjs
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── README.md
+├── sandbox.config.json
+└── tsconfig.json
+```
 
 ## Sponsor
 
