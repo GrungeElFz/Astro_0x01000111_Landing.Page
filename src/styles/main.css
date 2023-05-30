@@ -51,7 +51,7 @@ body {
   position: relative;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background: var(--theme-background) url('/assets/images/bg.svg') no-repeat;
+  /* background: var(--theme-background) url('/assets/images/bg.svg') no-repeat; */
   background-size: cover;
   background-position: center;
 }
@@ -112,5 +112,26 @@ p, li {
   .fade-in[data-state=hidden] {
       transform: scale(0.9);
       opacity: 0;
+  }
+}
+
+
+/* Gradient Animation */
+
+.gradient-background {
+  background: linear-gradient(270deg,#1f2f3c,#090a0f,#7aa6be);
+  background-size: 180% 180%;
+  animation: gradient-animation 24s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
