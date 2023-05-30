@@ -1,6 +1,6 @@
 export const settings = {
-  site: 'https://cannonball.littlesticks.dev',
-  name: 'Little Sticks',
-  title: 'Cannonball by Little Sticks | A splash page template',
-  description: 'This is a simple splash page template built with Astro by Little Sticks',
+  site: 'https://github.com/GrungeElFz/Astro_0x01000111_Landing.Page',
+  name: '0x01000111',
+  title: '0x01000111 | Landing Page',
+  description: '0x01000111 | Landing Page',
 }
