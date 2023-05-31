@@ -132,7 +132,7 @@ li {
     $gradient-middle,
     $gradient-end
   );
-  background-size: 180% 180%;
+  background-size: 200% 200%;
   animation: gradient-animation 24s ease infinite;
 
   @keyframes gradient-animation {
