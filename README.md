@@ -22,6 +22,7 @@ View a live site of the [0x01000111's Landing Page](http://www.0x01000111.io/) .
 │   ├── sponsor-badge.svg
 │   └── twitter-badge.svg
 ├── public/
+│   ├── Banner-0x01000111_Landing.Page_Lighthouse.png
 │   └── Banner-0x01000111_Landing.Page.png
 ├── src/
 │   ├── components/
