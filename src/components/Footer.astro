@@ -26,7 +26,7 @@ import { socials} from '../data/socials'
   <ul class="footer__socials">
     {socials.map((social) => (
       <li class="socal__link">
-        <a href={social.url} target="_blank" rel="noopener noreferrer">
+        <a href={social.url} target="_blank" rel="noopener noreferrer" title={social.title} aria-label={social.label}>
           <Icon name={social.icon} width="36px" height="36px" />
         </a>
       </li>
