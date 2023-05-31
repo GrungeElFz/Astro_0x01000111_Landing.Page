@@ -2,15 +2,11 @@
 import Button from "./Button.astro";
 ---
 
-<Button>
-  <form class="signup__form fade-in" action="">
-    <a href="mailto:01000111@0x01000111.io">Contact</a>
-  </form>
+<Button
+  aria-label="Contact Us"
+  title="Click here to contact us"
+  href="mailto:01000111@0x01000111.io"
+  role="button"
+>
+  <span>Contact</span>
 </Button>
-
-<style>
-  a {
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-</style>
