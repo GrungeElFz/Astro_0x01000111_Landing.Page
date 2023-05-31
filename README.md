@@ -209,6 +209,16 @@ It can be applied _globally_ to any element, by adding a class `fade-in`.
   </p>
 ```
 
+## Lighthouse Scores
+
+![Lighthouse Scores](public/Banner-0x01000111_Landing.Page_Lighthouse.png)
+
+- 🟢 Performance: 100
+- 🟢 Accessibility: 100
+- 🟢 Best Practices: 100
+- 🟢 SEO: 100
+- ⚫️ Progressive Web App: N/A
+
 ## Support
 
 [Template Repository ](https://github.com/littlesticks/cannonball)
