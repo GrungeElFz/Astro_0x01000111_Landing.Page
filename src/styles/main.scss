@@ -18,15 +18,15 @@
 
   --step--2: clamp(0.87rem, calc(0.84rem + 0.12vw), 0.99rem);
   --step--1: clamp(1.04rem, calc(0.99rem + 0.27vw), 1.31rem);
-  --step-0: clamp(1.25rem, calc(1.15rem + 0.50vw), 1.75rem);
-  --step-1: clamp(1.50rem, calc(1.33rem + 0.83vw), 2.33rem);
-  --step-2: clamp(1.80rem, calc(1.54rem + 1.31vw), 3.11rem);
+  --step-0: clamp(1.25rem, calc(1.15rem + 0.5vw), 1.75rem);
+  --step-1: clamp(1.5rem, calc(1.33rem + 0.83vw), 2.33rem);
+  --step-2: clamp(1.8rem, calc(1.54rem + 1.31vw), 3.11rem);
   --step-3: clamp(2.16rem, calc(1.76rem + 1.98vw), 4.14rem);
   --step-4: clamp(2.59rem, calc(2.01rem + 2.93vw), 5.53rem);
   --step-5: clamp(3.11rem, calc(2.26rem + 4.25vw), 7.37rem);
 
-  --font-family-heading: 'Roboto Flex', sans-serif;
-  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-heading: "Roboto Flex", sans-serif;
+  --font-family-body: "Open Sans", sans-serif;
 
   --body-max-width: 1920px;
 
@@ -56,7 +56,7 @@ body {
   background-position: center;
 }
 
-.flow>*+* {
+.flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
 
@@ -72,7 +72,7 @@ h1 {
   font-weight: 600;
   line-height: 1.2;
   font-stretch: 125%;
-  font-variation-settings: 'slnt' -4, 'opsz' 25;
+  font-variation-settings: "slnt" -4, "opsz" 25;
 }
 
 h2 {
@@ -94,44 +94,56 @@ h4 {
   font-family: var(--font-family-heading);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   max-width: 30ch;
 }
 
-p, li {
+p,
+li {
   max-width: 70ch;
 }
 
 /* Gloal fade in animation */
 
 @media (prefers-reduced-motion: no-preference) {
-  .fade-in[data-state=visible] {
-      transition: transform 700ms cubic-bezier(0.42, 0, 0.32, 1.17), opacity 1000ms cubic-bezier(0.42, 0, 0.32, 1.17) 200ms;
+  .fade-in[data-state="visible"] {
+    transition: transform 700ms cubic-bezier(0.42, 0, 0.32, 1.17),
+      opacity 1000ms cubic-bezier(0.42, 0, 0.32, 1.17) 200ms;
   }
 
-  .fade-in[data-state=hidden] {
-      transform: scale(0.9);
-      opacity: 0;
+  .fade-in[data-state="hidden"] {
+    transform: scale(0.9);
+    opacity: 0;
   }
 }
-
 
 /* Gradient Animation */
 
 .gradient-background {
-  background: linear-gradient(270deg,#1f2f3c,#090a0f,#7aa6be);
+  $gradient-start: #1f2f3c;
+  $gradient-middle: #090a0f;
+  $gradient-end: #7aa6be;
+
+  background: linear-gradient(
+    270deg,
+    $gradient-start,
+    $gradient-middle,
+    $gradient-end
+  );
   background-size: 180% 180%;
   animation: gradient-animation 24s ease infinite;
-}
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 }
