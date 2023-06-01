@@ -141,14 +141,14 @@ const image = new URL(Astro.props.image || "/Banner-0x01000111_Landing.Page.png"
 <meta name="description" content={description || settings.description} />
 <meta name="generator" content={Astro.generator} />
 
-// <!-- Open Graph / Facebook -->
+// Open Graph / Facebook
 <meta property="og:type" content="website" />
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={image} />
 
-// <!-- Twitter -->
+// Twitter
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
@@ -202,12 +202,12 @@ It can be applied _globally_ to any element, by adding a class `fade-in`.
 
 > For example:
 
-```ts
-  <h1 class="fade-in">0x01000111</h1>
-  <p class="fade-in">01100111 01101101</p>
-  <p class="fade-in description">
-    01110010 01100001 01110110 01100101 01110010 01110011
-  </p>
+```html
+<h1 class="fade-in">0x01000111</h1>
+<p class="fade-in">01100111 01101101</p>
+<p class="fade-in description">
+  01110010 01100001 01110110 01100101 01110010 01110011
+</p>
 ```
 
 ## Lighthouse Scores
