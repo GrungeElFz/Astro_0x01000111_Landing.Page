@@ -19,7 +19,7 @@ View a live site of the [0x01000111's Landing Page](http://www.0x01000111.io/) .
 ## Tech Stack
 
 - [Astro](https://astro.build)
-- [Scss](https://sass-lang.com/)
+- [SCSS](https://sass-lang.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/guide/)
 
