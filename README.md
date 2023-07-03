@@ -2,6 +2,16 @@
 
 ![0x01000111's Landing Page](public/Banner-0x01000111_Landing.Page.png)
 
+## Lighthouse Scores
+
+![Lighthouse Scores](public/Banner-0x01000111_Landing.Page_Lighthouse.png)
+
+- 🟢 Performance: 100
+- 🟢 Accessibility: 100
+- 🟢 Best Practices: 100
+- 🟢 SEO: 100
+- ⚫️ Progressive Web App: N/A
+
 ## Site
 
 View a live site of the [0x01000111's Landing Page](http://www.0x01000111.io/) .
@@ -209,16 +219,6 @@ It can be applied _globally_ to any element, by adding a class `fade-in`.
   01110010 01100001 01110110 01100101 01110010 01110011
 </p>
 ```
-
-## Lighthouse Scores
-
-![Lighthouse Scores](public/Banner-0x01000111_Landing.Page_Lighthouse.png)
-
-- 🟢 Performance: 100
-- 🟢 Accessibility: 100
-- 🟢 Best Practices: 100
-- 🟢 SEO: 100
-- ⚫️ Progressive Web App: N/A
 
 ## Support
 
