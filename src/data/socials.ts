@@ -1,5 +1,11 @@
 export const socials = [
   {
+    title: 'SoundCloud',
+    icon: 'mdi:soundcloud',
+    url: 'https://soundcloud.com/0x01000111',
+    label: 'Check out our mixes on SoundCloud',
+  },
+  {
     title: 'Instagram',
     icon: 'mdi:instagram',
     url: 'https://www.instagram.com/0x01000111/',
