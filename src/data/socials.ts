@@ -6,6 +6,12 @@ export const socials = [
     label: 'Check out my mixes on SoundCloud',
   },
   {
+    title: 'YouTube',
+    icon: 'mdi:youtube',
+    url: 'https://youtu.be/FgwCwAfkBQ4?si=ahEVq-pN62xDG_pg&t=490',
+    label: 'Check out my live set on YouTube',
+  },
+  {
     title: 'Instagram',
     icon: 'mdi:instagram',
     url: 'https://www.instagram.com/0x01000111/',
